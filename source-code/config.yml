@@ -1,0 +1,10 @@
+recipe: default.v1
+assistant_id: senior-empanada
+language: en
+pipeline:
+- name: WhitespaceTokenizer
+- name: CountVectorsFeaturizer
+- name: DIETClassifier
+  epochs: 100
+policies:
+- name: RulePolicy

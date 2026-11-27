@@ -1,0 +1,17 @@
+version: "3.1"
+
+intents:
+- msds_advisor
+- msds_instructor
+- goodbye
+ - SPS_registrar
+
+responses:
+  utter_msds_advisor:
+  - text: "I can help with MSDS course and advisor information. What would you like to know?"
+  utter_msds_instructor:
+  - text: "I can provide instructor and course details for MSDS classes. Which course?"
+  utter_goodbye:
+  - text: "Goodbye! Take care."
+  utter_SPS_registrar:
+  - text: "I can help with transcripts, Wildcard ID, billing, and address updates. What do you need?"

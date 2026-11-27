@@ -1,0 +1,37 @@
+version: "2.0"
+nlu:
+  - intent: goodbye
+    examples: |
+      - ByeBye
+      - byebye
+      - bye
+      - Bye
+      - good bye
+      - exit
+
+  - intent: msds_advisor
+    examples: |
+      - What are the courses offered this quarter?
+      - Who is my academic advisor?
+      - Can I take MSDS440 this quarter?
+      - Will the MSDS440 be offered on the schedule next quarter?
+      - What courses are offered for my specialization next quarter?
+
+  - intent: msds_instructor
+    examples: |
+      - Does MSDS440 course use Rasa tool?
+      - Does MSDS420 course use Python?
+      - What are the assignments in MSDS440?
+      - Who is the instructor for MSDS440?
+      - Does the MSDS420 have a final programming project or final term paper?
+
+  - intent: SPS_registrar
+    examples: |
+      - How do I request an official transcript?
+      - I need an unofficial transcript for my application
+      - Where can I pick up my Wildcard ID?
+      - My Wildcard ID was lost, how do I get a replacement?
+      - How do I update my billing information?
+      - Who do I contact about a billing hold on my account?
+      - I changed my home address — how do I update it in the system?
+      - What is the process to change my mailing address for transcripts?
